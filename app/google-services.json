@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "225969229930",
+    "firebase_url": "https://mymap-274910.firebaseio.com",
+    "project_id": "mymap-274910",
+    "storage_bucket": "mymap-274910.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225969229930:android:d6bdafc83217a5bf367a13",
+        "android_client_info": {
+          "package_name": "com.thecodecity.locationtracker2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225969229930-tc5alj6661aab8bm3o8mh98aeem0ndpp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thecodecity.locationtracker2020",
+            "certificate_hash": "8dc6cda3eff86092fb5667ee875ef4f4e66466a7"
+          }
+        },
+        {
+          "client_id": "225969229930-qcqv4mp9qedu8pbb7qcogh9i16b78n5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_mOPoJl0xCX16rWAG_rjm2vfE0lRbBvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225969229930-qcqv4mp9qedu8pbb7qcogh9i16b78n5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

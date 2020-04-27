@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    android:keepScreenOn="true"
+    tools:context="com.thecodecity.locationtracker2020.Activity_Help">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="98dp"
+                android:layout_height="92dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:elevation="10dp"
+                android:background="@drawable/shadow"
+                app:srcCompat="@drawable/personlogo1" />
+
+            <TextView
+                android:id="@+id/Fname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="50dp"
+                android:text="Father Name : Ahmed"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shadow"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/Mname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="50dp"
+                android:layout_marginTop="20dp"
+                android:text="Mother Name : Raya"
+                android:background="@drawable/shadow"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shadow"
+                android:elevation="900dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/vac2" />
+
+            <TextView
+                android:id="@+id/chname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="children names: "
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shadow"
+                android:textColor="@color/colorAccent"
+                android:textSize="40dp" />
+
+            <TextView
+                android:id="@+id/ch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="1: Hassan"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/ch2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="2: Kawther"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/ch3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="3: Assad"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/ch4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="4: Omer"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/h5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="5: Yasmen"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/imgvac"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:background="@drawable/shadow"
+                android:elevation="900dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/vac1" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shadow"
+                android:text="Vaccinations for children:"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="40dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/month99"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/month188"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="@string/month64"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

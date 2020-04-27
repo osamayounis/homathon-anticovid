@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:background="@drawable/backg">
+
+
+    <ImageView
+        android:layout_width="74dp"
+        android:elevation="10dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shadow"
+        android:layout_marginStart="1dp"
+        app:srcCompat="@drawable/personlogo1"
+        android:contentDescription="@string/logo" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/userName"
+        android:layout_marginTop="-70dp"
+        android:layout_marginStart="80dp"
+
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:elevation="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/Stuation2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/shape"
+        android:clickable="false"
+        android:elevation="10dp"
+        android:shadowDx="@android:integer/config_longAnimTime"
+        android:shadowDy="@android:integer/config_longAnimTime"
+        android:text="@string/INHome"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/infarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape"
+        android:shadowDy="@android:integer/config_longAnimTime"
+        android:shadowDx="@android:integer/config_longAnimTime"
+        android:elevation="400dp"
+        android:text="@string/infarea"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <fragment
+        android:id="@+id/mapFrag"
+        android:elevation="100dp"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_marginTop="30dp">
+    </fragment>
+
+
+</LinearLayout>

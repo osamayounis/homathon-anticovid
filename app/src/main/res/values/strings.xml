@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Anti Covid-19</string>
+    <string name="userName">Admin</string>
+    <string name="Fname">Father name : Ahmed</string>
+
+    <string name="Mname">Mother name : Raya</string>
+    <string name="mcss">Monitor Crowds and Social Distancing</string>
+    <string name="Profile">Profile</string>
+    <string name="Settings">Settings</string>
+    <string name="vcc">Vaccinations</string>
+    <string name="Home">Home</string>
+    <string name="vacc">Hello, You Have No Children in need of vaccinations </string>
+    <string name="profile1">Hello, This is Profile </string>
+    <string name="setting1">Hello, This is Setting </string>
+    <string name="stay">Stay Home</string>
+    <string name="INHome">IN Home</string>
+    <string name="OutHome">OUT Home</string>
+    <string name="StartTest">Start Test</string>
+    <string name="infarea">You Are Not In A Gathering Area</string>
+    <string name="infarea2">You Are In Gathering Area</string>
+    <string name="textvi">Enter Name</string>
+    <string name="logo">Personal photo</string>
+
+    <string name="month1">BCG , OPV</string>
+    <string name="month2">OPV , DPT , Hib , Hepatitis B ,(+First)</string>
+    <string name="month4">OPV , DPT , Hib , Hepatitis B ,(+Second)</string>
+    <string name="month6">OPV , DPT , Hib , Hepatitis B ,(+Third)</string>
+    <string name="month9">Yasmen : OPV ,(+Forth)</string>
+    <string name="month99">Yasmen : 9 Months  vaccinations </string>
+
+    <string name="month12">MMR (+First), OPV (+Booster)</string>
+    <string name="month18">Omer :MMR (+Second), OPV (+Booster) , DPT (+Booster)</string>
+    <string name="month188">Omer : 18 Months vaccinations</string>
+    <string name="month64">Kawther : 4,6 years vaccinations</string>
+    <string name="month644">Kawther : 4,6 yers OPV , DT ,(+Booster)</string>
+
+
+
+
+
+    <string name="google_maps_key" translatable="false">AIzaSyDYTwIYNTFC-1AfJEhYcgs35o7HkqRP77Y</string>
+</resources>
